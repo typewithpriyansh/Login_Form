@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Page</title>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    .login-form {
+        text-align: center;
+        width: 300px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+    }
+    .login-form h2 {
+        margin-top: 0;
+    }
+    .login-form input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+    .login-form button {
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .login-form button:hover {
+        background-color: #45a049;
+    }
+</style>
+</head>
+<body>
+<div class="login-form">
+    <h2>Login Page</h2>
+    <h1>SAP_ID : 53003220136</h1>
+    <form action="Login_Form" method="post">
+<!--        <label for="sap_id">SAP ID:</label><br>
+        <input type="text" id="sap_id" name="sap_id" required><br><br>-->
+        <label for="login_name">Login Name:</label><br>
+        <input type="text" id="login_name" name="login_name" placeholder="Enter Login Name" required><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter Password" required><br><br>
+        <button type="submit">Login</button>
+    </form>
+</div>
+</body>
+</html>
+
